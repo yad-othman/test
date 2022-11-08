@@ -1,0 +1,3 @@
+when I create an operator in operator web
+I don't get that "kafka successfully sent" in log 
+and kafka send status is null in operator table

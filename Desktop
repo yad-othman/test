@@ -1,0 +1,10 @@
+#!bin/bash
+echo "Enter directory name: "
+read  gitbash
+if [ -d "$gitbash" ]
+then
+echo "Diretory exist!"
+else
+ `mkdir $gitbash`
+echo "Directory created!"
+fi
